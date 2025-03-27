@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Hiking</title>
+    <title> Hiking </title>
 </head>
 <body>
     <nav class="nav-bar">
-        <h3 class="logo">Aventure</h1>
+        <h3 class="logo">Aventure</h3 >
         <ul class="nav-links">
             <li>
                 <a href="#">Home</a>
@@ -26,15 +26,24 @@
                 <a href="#">Contact</a>
             </li>
         </ul>
-        <img src="assets/menu-btn.png" alt="Menu button" class="manu-btn">
+        <img src="assets/menu-btn.png" alt="Menu button" class="menu-btn">
     </nav>
     <header>
         <div class="header-content">
             <h2>Enjoy your<br>life in nature</h2>
             <div class="line"> </div>
-            <h1>Hiking</h3>
-            <a href="#" class="ctn">learn Mores</a>
+            <h1>Hiking</h1>
+            <a href="#" class="ctn learnM">learn Mores</a>
         </div>
     </header>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 </html>
