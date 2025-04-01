@@ -6,22 +6,21 @@ menuBtn.addEventListener('click',()=>{
 })
 
 
-window.addEventListener('scroll', function() {
-    const section2 = document.querySelector('.events');
-    const section3 = document.querySelector('.explore');
-    const navBar = document.querySelector('.nav-bar');
+window.addEventListener("scroll", function () {
+    let navbar = document.querySelector(".nav-bar");
 
-    if (window.scrollY >= section2.offsetTop - 100) { 
-        navBar.classList.add('scrolled');
+    if (window.scrollY > 1000) {
+        navbar.classList.add("scrolled");
     } else {
-        navBar.classList.remove('scrolled');
+        navbar.classList.remove("scrolled");
     }
 
-    if (window.scrollY >= section3.offsetTop - 200) { 
-        navBar.classList.add('scrolled2');
+    if (window.scrollY > 2000) {
+        navbar.classList.add("scrolled2");
     } else {
-        navBar.classList.remove('scrolled2');
+        navbar.classList.remove("scrolled2");
     }
 });
+
 
 

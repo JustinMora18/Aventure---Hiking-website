@@ -53,18 +53,16 @@ ul{
 }
 
 /* section 2 */
-.nav-bar.scrolled .logo{
+.nav-bar.scrolled .logo {
     color: #ff6347;
 }
-.nav-bar.scrolled a {
+.nav-bar.scrolled .nav-link{
     color: #ff6347 !important;
 }
-.nav-bar.scrolled .ctn {
-    color: #f5f5f5; 
-}
+
 
 /* section 3 */
-.nav-bar.scrolled2 a {
+.nav-bar.scrolled2 .nav-link{
     color: #f5f5f5 !important;
 }
 .nav-bar.scrolled2 .logo {
