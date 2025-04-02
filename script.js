@@ -9,13 +9,13 @@ menuBtn.addEventListener('click',()=>{
 window.addEventListener("scroll", function () {
     let navbar = document.querySelector(".nav-bar");
 
-    if (window.scrollY > 1000) {
+    if (window.scrollY > 1030) {
         navbar.classList.add("scrolled");
     } else {
         navbar.classList.remove("scrolled");
     }
 
-    if (window.scrollY > 2000) {
+    if (window.scrollY > 2360) {
         navbar.classList.add("scrolled2");
     } else {
         navbar.classList.remove("scrolled2");
